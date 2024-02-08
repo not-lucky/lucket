@@ -1,13 +1,13 @@
 {
-    "version": "121.0.2",
+    "version": "122.0.2",
     "description": "Firefox fork with compiler optimizations and patches from Librewolf, Waterfox, and GNU IceCat.",
     "homepage": "https://thorium.rocks/mercury",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Alex313031/Mercury/releases/download/v.121.0.2/mercury_121.0.2_win64_AVX.zip",
-            "hash": "3c64741ae99c2c859c957ea9f0585914a5ff84f001705e8d5451dd1de50f8669",
-            "extract_dir": "mercury_121.0.2_win64_AVX/mercury"
+            "url": "https://github.com/Alex313031/Mercury/releases/download/v.122.0.2/mercury_122.0.2_win64_AVX.zip",
+            "hash": "d41614f84753f02378d3dc4f21e51468dfcbffa0cf600b06db689171e3172ff3",
+            "extract_dir": "mercury_122.0.2_win64_AVX/mercury"
         }
     },
     "pre_install": "Remove-Item \"$dir/pingsender.exe\"",
